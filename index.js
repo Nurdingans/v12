@@ -46,7 +46,7 @@ const antilink = JSON.parse(fs.readFileSync('./database/antilink.json'))
 
 //GAMBAR
 img1 = fs.readFileSync('./gambar/thumb.jpg')
-img2 = fs.readFileSync('./gambar/fake.jpg')
+img2 = fs.readFileSync('./gambar/Tak berjudul1_20220116055250.png')
 
 //MODE
 isSelf = false
@@ -726,7 +726,7 @@ ros = await Lexxy.prepareMessageFromContent(from,{
 "title": '◩ 𝘽𝙤𝙩 𝙄𝙣𝙛𝙤',
 "description": `□» 𝐍𝐚𝐦𝐞 : *${botName}*
 □» 𝐎𝐰𝐧𝐞𝐫 : *${ownerName}*
-□» 𝐀𝐮𝐭𝐡𝐨𝐫 : *Lexxy Official*
+□» 𝐀𝐮𝐭𝐡𝐨𝐫 : *TzyDin*
 □» 𝐏𝐫𝐞𝐟𝐢𝐱 : *Multi Prefix*
 □» 𝐋𝐢𝐛 : *Baileys*
 □» 𝐓𝐲𝐩𝐞 : *NodeJS*
@@ -946,7 +946,7 @@ case 'store':
 res = await Lexxy.prepareMessageFromContent(from,{
 "listMessage": {
 "title": '「 STORE MENU 」',
-"description": `*Created By Lexxy*`,
+"description": `*Created By TzyDin*`,
 "buttonText": "𝙋𝙄𝙇𝙄𝙃 𝘿𝙄𝙎𝙄𝙉𝙄",
 "listType": "SINGLE_SELECT",
 "sections": [
