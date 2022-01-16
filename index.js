@@ -1136,7 +1136,7 @@ case 'benew':
 reply2('Kasian Dia Baperan Kan Jadi Keluar 🗿\nDalem Hati Be Like:\nMasih Banyak Beban Baru')
 break
 case 'donasi':
-dno = fs.readFileSync('./gambar/donasi.jpg')
+dno = fs.readFileSync('./gambar/IMG_20220105_231651.jpg')
 dns =`${(ind.donasi())}`
 Lexxy.sendMessage(from, dno, image, { quoted: flexx, caption: dns })
 break
@@ -1531,7 +1531,7 @@ exec(`ffmpeg -i ${media} ${ran}`, (err) => {
 fs.unlinkSync(media)
 if (err) return reply('Yah gagal, coba ulangi ^_^')
 buffer = fs.readFileSync(ran)
-fakethumb(buffer,'By Lexxy Official')
+fakethumb(buffer,'By Tzydin')
 fs.unlinkSync(ran)
 })
 break
@@ -1620,7 +1620,7 @@ if (!isOwner) return sticOwner(from)
 if ((isMedia && !mek.message.videoMessage || isQuotedImage || isQuotedSticker) && args.length == 0) {
 boij = isQuotedImage || isQuotedSticker ? JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo : mek
 delb = await Lexxy.downloadMediaMessage(boij)
-fs.writeFileSync(`./gambar/fake.jpg`, delb)
+fs.writeFileSync(`./gambar/IMG_20220105_231651.jpg`, delb)
 reply('Sukses')
 } else {
 reply(`Kirim gambar dengan caption ${prefix}setfake`)
